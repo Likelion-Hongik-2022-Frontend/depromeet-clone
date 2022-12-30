@@ -1,0 +1,24 @@
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+.animation {
+    position: relative;
+    animation: fadeInDown 2s;
+}
+
+.hover {
+    transition: all 0.2s linear;
+  }
+  
+  .hover:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
